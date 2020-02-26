@@ -128,7 +128,7 @@ const init = () => {
                           //filename to send to server without extension
                           //upload link
                           var filename= new Date().toISOString().substring(0, 10)+".wav"
-                        const sentServer = () => {
+                          const sentServer = () => {
                               var xhr = new XMLHttpRequest();
                               xhr.onload = function(e) {
                                   if (this.readyState === 4) {
